@@ -51,5 +51,5 @@ Section "" ;No components page, name is not important
 SectionEnd ; end the section
 
 Section "スタートアップへ登録"
-  CreateShortCut "$SMSTARTUP\${APP}.lnk" "${APP}.exe"
+  CreateShortCut "$SMSTARTUP\${APP}.lnk" "$INSTDIR\${APP}.exe"
 SectionEnd
